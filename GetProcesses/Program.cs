@@ -9,7 +9,7 @@ namespace GetProcesses
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("Geef een processnaam op");
+                Console.WriteLine("Geef een Processnaam op");
                 Environment.Exit(-1);
             }
             var tmp = GetProcesses(args[0]);
